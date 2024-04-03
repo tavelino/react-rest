@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:8080/hello')
+    axios.get('https://spring-rest-simple-rest.apps.u0eqq9nm.eastus.aroapp.io')
       .then(response => {
         setMessage(response.data);
       })
