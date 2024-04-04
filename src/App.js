@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    axios.get('https://spring-rest-simple-rest.apps.u0eqq9nm.eastus.aroapp.io/hello')
+    axios.get('https://spring-rest-simple-rest.apps.gjd7si6t.eastus.aroapp.io/hello')
       .then(response => {
         setMessage(response.data);
       })
